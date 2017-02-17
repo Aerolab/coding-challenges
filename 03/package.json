@@ -1,0 +1,14 @@
+{
+  "name": "coding-challenge-03",
+  "version": "1.0.0",
+  "description": "Open ./index.html to get started!",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --no-ui --files js/dribbleShots.js"
+  },
+  "author": "Sergio Behrends <sergio@aerolab.co>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}

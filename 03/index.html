@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Aerolab Coding Challenge 3 - Find the API</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/mocha/2.2.5/mocha.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Aerolab Coding Challenge 3</h1>
+    <p>In <a href="https://aerolab.co/portfolio" target="_blank">https://aerolab.co/portfolio</a> we show our latest shots in Dribbble using an internal API.</p>
+
+    <p>Find that endpoint and edit the <strong>dribbleShots</strong> function so it returns an array of shots. There's one extra challenge though: You need to read the tests to figure out how the shot objects should look like.</p>
+
+    <p>As an additional detail, the "image" key should be the hidpi image source. If the image does not have a hidpi source, we don't want it shown, so we remove it from the array.</p>
+
+    <p>Your challenge is to implement the dribbleShots function, making sure it passes all of the tests, which includes figuring out the correct format for the shots objects.</p>
+
+    <h2>Test Results</h2>
+    <div id="mocha"></div>
+  </main>
+
+  <!-- Here goes your code -->
+  <script src="js/dribbleShots.js"></script>
+
+  <!-- These are the tests for dribbbleShots -->
+  <script src='lib/mocha.min.js'></script>
+  <script src='lib/chai.min.js'></script>
+  <script src='lib/jquery.min.js'></script>
+  <script src="js/tests.js"></script>
+
+</body>
+</html>

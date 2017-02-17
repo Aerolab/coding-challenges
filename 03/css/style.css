@@ -1,0 +1,28 @@
+@import url("http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700");
+body {
+  font: 16px/1.5 Dosis, "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+main {
+  max-width: 840px;
+  padding: 30px;
+  margin: 0 auto;
+}
+h2 {
+  margin: 50px 0 0 0;
+}
+a {
+  color: #ff7800;
+}
+pre {
+  white-space: pre-wrap;
+}
+#mocha {
+  margin: 30px 0 30px;
+}
+#mocha .test pre {
+  width: 100%;
+}
+#mocha-report {
+  border-left: 3px solid #f0f0f0;
+}
