@@ -1,0 +1,27 @@
+{
+  "name": "aerolab-coding-challenge-2",
+  "version": "1.0.0",
+  "description": "Aerolab Coding Challenge 2",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-react-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-react-app",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {
+    "dom-to-image": "^2.5.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "resemblejs": "^2.2.3"
+  },
+  "devDependencies": {
+    "nwb": "0.13.x",
+    "nwb-sass": "^0.7.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": ""
+}

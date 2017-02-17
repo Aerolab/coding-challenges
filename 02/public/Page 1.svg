@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="183" height="53" viewBox="0 0 183 53">
+  <g fill="none" fill-rule="evenodd">
+    <path stroke="#2497A9" d="M0.5002,26.4999 L0.5002,26.4999 C0.5002,12.1409 12.1402,0.4999 26.5002,0.4999 L156.5002,0.4999 C170.8592,0.4999 182.5002,12.1409 182.5002,26.4999 C182.5002,40.8589 170.8592,52.4999 156.5002,52.4999 L26.5002,52.4999 C12.1402,52.4999 0.5002,40.8589 0.5002,26.4999"/>
+    <text fill="#221F20" font-family="MyriadPro-Regular, Myriad Pro" font-size="16" letter-spacing="-1.136">
+      <tspan x="78.275" y="27.196">T</tspan> <tspan x="83.955" y="27.196">est</tspan>
+    </text>
+  </g>
+</svg>

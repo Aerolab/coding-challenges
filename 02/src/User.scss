@@ -1,0 +1,35 @@
+/*
+# Aerolab Coding Challenge 2
+
+We built a small React app containing a reference design in SVG and some HTML. Everything works except for the CSS, which we seem to have lost.
+Your challenge is to edit **./src/User.scss** to make both designs match as closely as you can, using all the tools in your CSS arsenal. We'll be evaluating both the design and code quality.
+We've provided a compare button to compare your implementation with the design. There's also a progress bar in the *Join Us* button, which runs a visual comparison to the original design every few seconds and tells you how far you are from a perfect implementation. Good luck!
+
+    <div class="user-grid">
+      <div class="user">
+        <div class="avatar fav">
+          <img src="01.png" alt="">
+        </div>
+        <h3 class="name">Ale</h3>
+        <div class="event featured">
+          <h4 class="label">¡Se acerca aniversario!</h4>
+          <button class="assist">
+            <img class="icon" src="cal-grey.svg" alt="">
+            <span>17 - 09</span>
+          </button>
+        </div>
+      </div>
+
+      ...
+
+    </div>
+
+    Fav Icon: https://cdn.aerolab.co/coding-challenge/02/star.svg
+
+ */
+
+.user-grid {
+}
+
+.user {
+}

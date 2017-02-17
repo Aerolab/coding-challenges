@@ -1,0 +1,44 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "Ale",
+      "img": "https://cdn.aerolab.co/coding-challenge/02/01.png",
+      "fav": true,
+      "nextEvent": {
+        "title": " ¡Se acerca aniversario!",
+        "date": "17 - 09",
+        "near": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Juani",
+      "img": "https://cdn.aerolab.co/coding-challenge/02/02.png",
+      "fav": false,
+      "nextEvent": {
+        "title": "Próximo: Cumpleaños",
+        "date": "21 - 11",
+        "near": false
+      }
+    },
+    {
+      "id": 4,
+      "name": "LiMpA",
+      "img": "https://cdn.aerolab.co/coding-challenge/02/03.png",
+      "fav": false,
+      "nextEvent": {
+        "title": "Próximo: Cumpleaños",
+        "date": "11 - 12",
+        "near": false
+      }
+    },
+    {
+      "id": 3,
+      "name": "Foz",
+      "img": "https://cdn.aerolab.co/coding-challenge/02/04.png",
+      "fav": true,
+      "nextEvent": null
+    }
+  ]
+}

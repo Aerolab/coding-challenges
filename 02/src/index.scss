@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,700');
+
+body {
+  background-image: linear-gradient(0deg, rgba(255,92,71,0.50) 3%, #FFAF88 97%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Heebo', sans-serif;
+}
+
+
+.app {
+  display: block;
+  position: relative;
+  width: 378px;
+  height: 457px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 20px;
+  border-radius: 6px;
+  background: #FFF;
+  overflow-y: auto;
+  box-shadow: 0 30px 40px rgba(0,0,0, 0.2);
+}
+
+
+.design {
+  margin: 20px;
+  z-index: 2;
+  img {
+    width: 378px;
+    border-radius: 6px;
+    box-shadow: 0 30px 40px rgba(0,0,0, 0.2);
+  }
+}
+
+.app, .design {
+  transition: transform 0.5s ease, opacity 0.2s ease 0.3s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  &.compare {
+    .design {
+      transform: translateX(calc(50% + 20px));
+      opacity: 0.7;
+    }
+    .app {
+      transform: translateX(calc(-50% - 20px));
+    }
+  }
+}
+
+.button-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-progress {
+  position: relative;
+  width: 184px;
+  height: 52px;
+  line-height: 54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFF;
+  margin-top: 40px;
+
+  transition: color 0.3s ease 0.2s;
+
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    path {
+      transition: fill 0.3s ease 0.2s;
+    }
+  }
+
+  &.complete {
+    color: #FFAE9A;
+    // background: #FFF;
+    svg {
+      path {
+        fill: #FFF;
+      }
+    }
+  }
+}
+
+.button {
+  margin-top: 40px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 100px;
+  line-height: 50px;
+  background: transparent;
+  transition: opacity 0.3s ease;
+  text-transform: uppercase;
+  padding: 0 40px;
+  outline: none;
+  opacity: 1;
+  cursor: pointer;
+
+  img {
+    margin-left: 5px;
+    margin-bottom: -4px;
+  }
+
+  &.tryharder {
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &.active {
+    color: #FFAE9A;
+    background: #FFF;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
