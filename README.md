@@ -1,6 +1,6 @@
 # Aerolab Coding Challenges
 
-We've created a set of challenges for you to demonstrate your abilities as a developer.
+We've created a set of challenges for you to demonstrate your abilities as a developer. The challenge is on front-web technologies.
 
 To get started, you should clone this repository and check out the challenges. Each challenge is self-contained in each folder, and you can do them in any order you want.
 
